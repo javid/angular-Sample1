@@ -4,4 +4,8 @@
     <h2>
         <a [title]="product.name +' details'">{{ product.name }}</a>
     </h2>
+    
+    <p *ngIf="product.description">
+        Description: {{ product.description}}
+    </p>
 </div>
